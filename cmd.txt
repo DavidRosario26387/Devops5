@@ -1,6 +1,8 @@
 docker compose up -d
 docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
+install HTMLpublisher plugin
+paste script.txt in jenkins script
 
 -----reset----
 docker stop jenkins
